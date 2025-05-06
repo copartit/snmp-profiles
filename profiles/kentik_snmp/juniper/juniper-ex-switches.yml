@@ -153,9 +153,9 @@ metrics:
       - OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.7
         name: jnxVirtualChassisMemberUptime
       - OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.6
-        name:  jnxVirtualChassisMemberPriority
+        name: jnxVirtualChassisMemberPriority
       - OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.3
-        name:  jnxVirtualChassisMemberRole
+        name: jnxVirtualChassisMemberRole
         enum:
           master: 1
           backup: 2
@@ -165,12 +165,11 @@ metrics:
         OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.2
         name: jnxVirtualChassisMemberSerialnumber
     - column:
-        OID: .1.3.6.1.4.1.2636.3.40.1.4.1.1.1.8
+        OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.8
         name: jnxVirtualChassisMemberModel
     - column:
         OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.4
         name: jnxVirtualChassisMemberMacAddBase
-        conversion: hextomac
     - column:
         OID: 1.3.6.1.4.1.2636.3.40.1.4.1.1.1.5
         name: jnxVirtualChassisMemberSWVersion
