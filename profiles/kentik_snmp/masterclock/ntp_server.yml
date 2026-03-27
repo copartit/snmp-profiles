@@ -13,36 +13,34 @@ sysobjectid:
 metrics:
   - MIB: MASTERCLOCK-NTP-SERVER-MIB
     symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.9
-      name: mcNtpServerAlarmFlag
-      walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.9
+        name: mcNtpServerAlarmFlag
+        walk_full_table: false
   - MIB: MASTERCLOCK-NTP-SERVER-MIB
     symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.3
-      name: mcNtpServerBroadcastEnable
-      walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.3
+        name: mcNtpServerBroadcastEnable
+        walk_full_table: false
   - MIB: MASTERCLOCK-NTP-SERVER-MIB
     symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.2
-      name: mcNtpServerEnable
-      walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.2
+        name: mcNtpServerEnable
+        walk_full_table: false
   - MIB: MASTERCLOCK-NTP-SERVER-MIB
     symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.6
-      name: mcNtpServerFrequency
-      walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.6
+        name: mcNtpServerFrequency
+        walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.4
+        name: mcNtpServerMulticastEnable
+        walk_full_table: false
   - MIB: MASTERCLOCK-NTP-SERVER-MIB
     symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.4
-      name: mcNtpServerMulticastEnable
-      walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.7
+        name: mcNtpServerStratumHigh
+        walk_full_table: false
   - MIB: MASTERCLOCK-NTP-SERVER-MIB
     symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.7
-      name: mcNtpServerStratumHigh
-      walk_full_table: false
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      OID: 1.3.6.1.4.1.45561.5.1.1.8
-      name: mcNtpServerStratumLow
-      walk_full_table: false
+      - OID: 1.3.6.1.4.1.45561.5.1.1.8
+        name: mcNtpServerStratumLow
+        walk_full_table: false
