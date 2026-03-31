@@ -1,7 +1,7 @@
 ---
 extends:
   - system-mib.yml
-provider: kentik-ntp
+provider: kentik
 sysobjectid:
   - 1.3.6.1.4.1.45561.1.1
 metrics:
