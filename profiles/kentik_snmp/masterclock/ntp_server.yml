@@ -4,37 +4,21 @@ extends:
 provider: kentik-ntp
 sysobjectid:
   - 1.3.6.1.4.1.45561.1.1
-  - 1.3.6.1.4.1.45561.5.1
-  - 1.3.6.1.4.1.45561.5.1.1.70.1
-  - 1.3.6.1.4.1.45561.5.1.1.70
-  - 1.3.6.1.4.1.45561
-  - 1.3.6.1.4.1.45561.5
-  - 1.3.6.1.4.1.45561.5.1.1
-  - 1.3.6.1.4.1.45561.5.1.1.70.2
 metrics:
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      - OID: 1.3.6.1.4.1.45561.5.1.1.9
-        name: mcNtpServerAlarmFlag
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      - OID: 1.3.6.1.4.1.45561.5.1.1.3
-        name: mcNtpServerBroadcastEnable
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      - OID: 1.3.6.1.4.1.45561.5.1.1.2
-        name: mcNtpServerEnable
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      - OID: 1.3.6.1.4.1.45561.5.1.1.6
-        name: mcNtpServerFrequency
-      - OID: 1.3.6.1.4.1.45561.5.1.1.4
-        name: mcNtpServerMulticastEnable
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      - OID: 1.3.6.1.4.1.45561.5.1.1.7
-        name: mcNtpServerStratumHigh
-  - MIB: MASTERCLOCK-NTP-SERVER-MIB
-    symbols:
-      - OID: 1.3.6.1.4.1.45561.5.1.1.8
-        name: mcNtpServerStratumLow
+  metrics:
+    - MIB: MASTERCLOCK-NTP-SERVER-MIB
+      symbols:
+        - OID: 1.3.6.1.4.1.45561.5.1.1.2
+          name: mcNtpServerEnable
+        - OID: 1.3.6.1.4.1.45561.5.1.1.3
+          name: mcNtpServerBroadcastEnable
+        - OID: 1.3.6.1.4.1.45561.5.1.1.4
+          name: mcNtpServerMulticastEnable
+        - OID: 1.3.6.1.4.1.45561.5.1.1.6
+          name: mcNtpServerFrequency
+        - OID: 1.3.6.1.4.1.45561.5.1.1.7
+          name: mcNtpServerStratumHigh
+        - OID: 1.3.6.1.4.1.45561.5.1.1.8
+          name: mcNtpServerStratumLow
+        - OID: 1.3.6.1.4.1.45561.5.1.1.9
+          name: mcNtpServerAlarmFlag
